@@ -1,0 +1,239 @@
+.item3{
+    padding: 10px;
+}
+.size-item3{
+    height: 35px;
+    /* border: 1px solid black; */
+    padding: 0px 10px 10px 10px;
+}
+
+
+/* title item3.1 */
+.item3-1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
+/* item3.2 */
+
+#input-item3-2{
+    height: 20px;
+    width: 100%;
+    /* border-width: 0px 0px 1px 0px ;
+    border-bottom: 1px solid white ; */
+    border-width: 0px 0px 1px 0px;
+    border-color: white;
+    color: white;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom left, rgb(19, 19, 238), rgb(233, 27, 61));
+}
+
+/* item3.3*/
+.btn{
+    background-color: greenyellow; /* Green */
+    border: none;
+    color: white;
+    /* padding: 5px; */
+    width: 40%;
+    /* height: 30px; */
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+    padding: 10px 15px;
+    
+}
+.item3-3{
+    box-sizing: content-box;
+}
+.submit{
+    float: inline-start;
+    /* position: relative; */
+}
+.cancel{
+    float: inline-end;
+}
+
+/*item3-4  servo*/
+.item3-4{
+    height: 60px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 20px 0;
+    width: 100%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: #03a9f4;
+    border-radius: 25px;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(0,0,0, 1);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #03a9f4;
+  }
+  .range-wrap{
+    width: 100%px;
+    position: relative;
+    margin-left: 150px;
+    margin-top: -35px;
+  }
+  .range-value{
+    position: absolute;
+    top: -50%;
+  }
+  .range-value span{
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #03a9f4;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 6px;
+  }
+  .range-value span:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #03a9f4;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -1px;
+  }
+
+  .servo{
+    margin-top: 20px;
+    font-family: ;
+  }
+
+/* item3-5 */
+.item3-5{
+
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    float: inline-end;
+  }
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: yellow;
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: greenyellow;
+    -webkit-transition: .4s;
+    transition: .1s;
+  }
+  
+input:checked + .slider {
+    background-color: red;
+  }
+  
+input:focus + .slider {
+    box-shadow: 1px 1px 1px 1px  black;
+    border: 1px solid black;
+  }
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+  }
+  
+.slider.round:before {
+    border-radius: 50%;
+  }
+
+
+/* item3-8 */
+.item3-8{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+            /* font-size: 30px; */
+            /* color: green; */
+            /* border: 4px dashed green; */
+            /* padding: 5px; */
+            /* width: 400px; */
+        justify-content: center;
+}
+
+
+#led {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-style: dashed;
+    background-color: rgb(20, 1, 1); /* Initial state: LED is off */
+    float: left;
+  }
+
+  #toggleButton {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /* item3-9 */
+

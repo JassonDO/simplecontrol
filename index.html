@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOT</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./clock/clock.css">
+    <link rel="stylesheet" href="./control/control.css">
+    <link rel="stylesheet" href="./RecentData/RecentData.css">
+    <link rel="stylesheet" href="./switch/switch.css">
+    <link rel="stylesheet" href="./name/name.css">
+</head>
+<body>
+    <div><h2>Nhóm IOT - GVHD: Phạm Quanng Trí</h2></div>
+    
+    
+    <div class="container">
+        <div class="item1">
+            <div class="logo">
+            <img id="logo" src="./fetiuh.png" alt="">
+            </div>
+            <h2 id="head-title">Control IoT Devices</h2>
+        </div>
+        <div class="item2">
+            <div class="clock-out">
+                <div class="clock">
+                    <!-- <div class="time-bg"><span class="time">~~</span>88:88 <span id="seconds-bg">88</span> </div> -->
+                    <div class="time-front"><span class="time" id="sessin"></span><span id="DSEGClock"></span> <span id="seconds-front"></span></div>
+                    <div class="day">
+                        <!-- <div class="day-bg">~~~</div> -->
+                        <div class="day-front" id="din"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item3">
+            <div class="item3-1 size-item3">
+               LCD
+            </div>
+            <div class="item3-2 size-item3">
+                <input type="text" name="" id="input-item3-2" value="Type anything...">
+            </div>
+            <div class="item3-3 size-item3">
+                <a href="" class="btn submit">SUBMIT</a>
+                <a href="" class="btn cancel">CANCEL</a>
+            </div>
+            <div class="item3-4 size-item3">
+                <div class="servo">Servo</div>
+                <div class="range-wrap">
+                    <div class="range-value" id="rangeV"></div>
+                    <input id="range" type="range" min="200" max="800" value="200" step="1">
+                  </div>
+            </div>
+            <div class="item3-5 size-item3">
+                Lora Remote Control
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="item3-6 size-item3">
+                Control Led 1
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="item3-7 size-item3">
+                Control Led 2
+                <label class="switch">
+                    <input type="checkbox" checked id="toggleButton" onclick="toggleLED()"/>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="item3-8 size-item3">
+                <div>Led 1
+                    <span class="dot dot1" id="led"></span>
+                </div>
+                <div>Led 2
+                    <span class="dot dot2" id="led"></span>
+                </div>
+                <div>
+                <span class="dot dot3" id="led"></span>
+                Lamp
+                </div>
+            </div>
+            <div class="item3-9 size-item3">
+                <div>
+                    <span class="dot dot3" id="led"></span>
+                    Siren
+                </div>
+            </div>
+        </div>
+        <div class="item4">RecentData
+
+            <div class="sc-gauge">
+                <div class="sc-background">
+                  <div class="sc-percentage"></div>
+                  <div class="sc-mask"></div>
+                  <span class="sc-value">88</span>
+                </div>
+                <span class="sc-min">0</span>
+                <span class="sc-max">100</span>
+            </div>
+
+            <div class="sc-gauge">
+                <div class="sc-background">
+                  <div class="sc-percentage"></div>
+                  <div class="sc-mask"></div>
+                  <span class="sc-value">88</span>
+                </div>
+                <span class="sc-min">0</span>
+                <span class="sc-max">100</span>
+            </div>
+        </div>
+        <div class="item5">
+            <div class="item5-1 size-item5">
+                SW1
+                <label class="switch">
+                    <input type="checkbox" checked id="toggleButton" onclick="toggleLED()"/>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="item5-2 size-item5">
+                SW2
+                <label class="switch">
+                    <input type="checkbox" checked id="toggleButton" onclick="toggleLED()"/>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+        <div class="item6">
+            <div class="name"><span></span></div>
+            <div class="name"><span></span></div>
+            <div class="name"><span></span></div>
+        </div>
+    </div>
+
+
+
+    
+
+    <script src="./clock/clock.js"></script>
+    <script src="./control/control.js"></script>
+    <script src="./RecentData/RecentData.js"></script>
+    <script src="./switch/switch.js"></script>
+    <script src="./name/name.js"></script>
+</body>
+</html>

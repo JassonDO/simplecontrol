@@ -1,0 +1,120 @@
+/* body {
+    background: black
+} */
+
+@font-face {
+    font-family: "s7";
+    src: url(https://dl.dropbox.com/s/9w04nj4cqqbwr6z/DSEG7Classic-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: s14;
+    src: url(https://dl.dropbox.com/s/qzty6p6p7nwfhbg/DSEG14Modern-Italic.woff)
+}
+
+
+.item2{
+    width: 100%;
+    height: 1;
+    box-sizing: content-box;
+}
+
+.clock-out {
+    /* border: 1px solid black; */
+    /* background: rgb(0, 0, 0); */
+    height: 45px;
+    /* width: 200px; */
+    /* border-radius: 10px; */
+    /* border: 5px solid red; */
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    margin-right: -50%; */
+    /* float: inline-start; */
+    /* transform: translate(-50%, -50%) */
+    /* margin-left: -30px; */
+    box-sizing: content-box;
+
+}
+
+.clock {
+    font-family: s7;
+    font-size: 45px;
+    font-style: italic;
+    margin-top: 10px;
+    /* margin-left: 100px; */
+    box-sizing: border-box;
+
+}
+
+/* .time-bg {
+    color: rgba(194, 206, 206, 0.12);
+    position: absolute;
+    left: 110px
+} */
+#seconds-front, #seconds-bg{
+    font-size: 35px;
+}
+
+.time {
+    font-family: s14 !important;
+    font-size: 14px;
+    top: 15px;
+    left: -20px;
+    top: 0px;
+    position: absolute;
+    font-style: italic;
+}
+
+.time-front {
+    position: absolute;
+    color: white;
+    left: 80px;
+}
+
+/* .date {
+    font-family: s7;
+    font-size: 20px;
+    top: 110px;
+    left: -20px;
+    position: absolute;
+    font-style: italic;
+} */
+
+.date-bg {
+    color: rgba(194, 206, 206, 0.12);
+    position: absolute;
+    left: 60px
+}
+
+/* .date-front {
+    position: absolute;
+    color: white;
+    left: 150px;
+} */
+
+.day {
+    font-family: s14;
+    font-size: 20px;
+    left: 10px;
+    /* top: 30px; */
+    /* top:  40px; */
+
+    position: absolute;
+    font-style: italic;
+}
+/* 
+.day-bg {
+    color: rgba(194, 206, 206, 0.12);
+    position: absolute;
+    left: 60px
+} */
+
+.day-front {
+    position: absolute;
+    /* color: rgb(255, 0, 0); */
+    color: white;
+    left: 20px;
+    top:  17px;
+
+}
